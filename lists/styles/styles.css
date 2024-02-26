@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 31, 31);
+}
+
+.container{
+    background: ivory;
+    margin: 20px auto;
+    width: 70%;
+    padding: 20px;
+}
+h1,h2,h3{
+    text-align: center;
+    color: green;
+}
+
+dt{
+    font-weight: bold;
+    color: purple;
+}

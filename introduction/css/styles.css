@@ -44,7 +44,13 @@ background-color: ivory;
    
 }
 
-img {
+#gaming img{
+    width:30%;
+    padding: 10px 10px 10px 20px;
+    
+}
+
+#baking img {
     width: 30%;
     padding: 30px;
 }

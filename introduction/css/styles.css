@@ -37,17 +37,48 @@ background-color: ivory;
 
 img {
     width: 30%;
+    padding: 30px;
+}
+
+div{
+    min-height: 250px;
+    overflow: auto;
 }
 
 .container{
     width: 80%;
     margin: 10px auto;
     border: 2px solid ;
-    padding: 5px;
+    padding: 20px;
     background:rgba(233, 160, 206, 0.7);
 }
 
-.container header{
-    background: rgba(233, 160, 206, 0.7);
+.creme-brulee img{
+    float:left;
+}
+
+.cake img{
+    float: right;
+    width: 20%;
+}
+
+header{
+    background: rgba(233, 160, 206, 0);
     text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover{
+    color: darkviolet;
 }

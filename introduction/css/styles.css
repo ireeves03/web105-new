@@ -35,6 +35,15 @@ background-color: ivory;
     background-size: cover;
 }
 
+
+#gaming{
+    background-image:url("../images/gaming-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: larger;
+}
+
 img {
     width: 30%;
     padding: 30px;

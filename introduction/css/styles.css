@@ -4,6 +4,7 @@ body{
     font-size: large;
     line-height: 50px;
     color: rgb(95, 40, 95);
+    
 }
 
 nav{
@@ -29,11 +30,17 @@ color: rgb(95, 40, 95);
 background-color: ivory;
     }
 
+    #home img{
+        float:left;
+        padding: 20px;
+    }
+
 #baking{
     background-image:url("../images/baking-background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 
@@ -42,6 +49,7 @@ background-color: ivory;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-weight: bold;
    
 }
 

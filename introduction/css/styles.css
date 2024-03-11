@@ -35,6 +35,14 @@ background-color: ivory;
         padding: 20px;
     }
 
+    #home{
+        background-image:url("../images/home-background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }
+
 #baking{
     background-image:url("../images/baking-background.jpg");
     background-repeat: no-repeat;

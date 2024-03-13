@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Calendar</title>
     <style>
     .container{
         width: 80%;
         margin: 10px auto;
     }
-    .class{
-        background: rgb(205, 222, 205) ;
-        color: black;
-        border: 2px solid green;
-        padding: 5px 10px;
+
+    .weekend{
+        background-color: rgb(178, 248, 248);
     }
+    
     table{
         width: 100%;
         border-collapse: collapse;
@@ -31,10 +32,10 @@
         font-weight: bold;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         width: 12.5%;
-        border: 1px solid black;
+        border: 1px solid rgb(4, 204, 204);
     }
     th{
-        background-color: green;
+        background-color: rgb(4, 204, 204);
         text-align: center;
         color: white;
         font-weight: bold;
@@ -46,9 +47,13 @@
 <body>
     <div class="container">
         <h1>Table</h1>
+        <nav>
 <a href="index.html">Tables</a>
 <a href="schedule.html">Schedule</a>
 <a href="calendar.html">Calendar</a>
+</nav>
+<h2>Calendar</h2>
+<h3>June</h3>
         <table>
            <tr>
             <th>Sunday</th>
@@ -60,58 +65,58 @@
             <th>Saturday</th>
            </tr>
            <tr>
+            <td class="weekend"></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td>1</td>
+            <td class="weekend">1</td>
            </tr>
            <tr>
-            <td>2</td>
+            <td class="weekend">2</td>
             <td>3</td>
             <td>4</td>
             <td>5</td>
             <td>6</td>
             <td>7</td>
-            <td>8</td>
+            <td class="weekend">8</td>
            </tr>
            <tr>
-            <td>9</td>
+            <td class="weekend">9</td>
             <td>10</td>
             <td>11</td>
             <td>12</td>
             <td>13</td>
             <td>14</td>
-            <td>15</td>
+            <td class="weekend">15</td>
            </tr>
            <tr>
-            <td>16</td>
+            <td class="weekend">16</td>
             <td>17</td>
             <td>18</td>
             <td>19</td>
             <td>20</td>
             <td>21</td>
-            <td>22</td>
+            <td class="weekend">22</td>
            </tr>
            <tr>
-            <td>23</td>
+            <td class="weekend">23</td>
             <td>24</td>
             <td>25</td>
             <td>26</td>
             <td>27</td>
             <td>28</td>
-            <td>29</td>
+            <td class="weekend">29</td>
            </tr>
            <tr>
-            <td>30</td>
+            <td class="weekend">30</td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <td class="weekend"></td>
            </tr>
         </table>
     </div>

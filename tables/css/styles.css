@@ -1,4 +1,4 @@
-h1, h2, h3, nav {
+body{
     text-align: center;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,4 +30,16 @@ background-color: ivory;
         border: 2px solid slategray;
         border-radius: 20px;
         padding:40px;
+    }
+    
+    h1, h2{
+        color: darkslateblue;
+    }
+
+    .month{
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkcyan;
+        border: none;
     }

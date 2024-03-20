@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <title>Schedule</title>
     <style>
     .container{
@@ -10,9 +12,9 @@
         margin: 10px auto;
     }
     .class{
-        background: rgb(205, 222, 205) ;
+        background: rgb(220, 142, 157);
         color: black;
-        border: 2px solid green;
+        border: 2px solid red;
         padding: 5px 10px;
     }
     table{
@@ -26,10 +28,10 @@
     td{
        
         width: 12.5%;
-        border: 1px solid black;
+        border: 1px solid crimson;
     }
     th{
-        background-color: green;
+        background-color:crimson;
         text-align: center;
         color: white;
         font-weight: bold;
@@ -41,9 +43,12 @@
 <body>
     <div class="container">
         <h1>Table</h1>
+        <nav>
 <a href="index.html">Tables</a>
 <a href="schedule.html">Schedule</a>
 <a href="calendar.html">Calendar</a>
+</nav>
+<h2>Schedule</h2>
         <table>
            <tr>
             <th></th>
@@ -87,26 +92,22 @@
             <th>12:00 pm</th>
             <td></td>
             <td></td>
+            <td rowspan="2" class="class">Digital Legalities</td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td rowspan="2" class="class">Digital Legalities</td>
             <td></td>
             <td></td>
            </tr>
            <tr>
             <th>1:00 pm</th>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td rowspan="2" class="class">Intro Psychology</td>
+            <td rowspan="2" class="class">Intro Psychology</td>
             <td></td>
             <td></td>
            </tr>
            <tr>
             <th>2:00pm</th>
-            <td></td>
-            <td></td>
             <td></td>
             <td></td>
             <td></td>

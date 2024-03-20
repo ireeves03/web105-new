@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 3;
+}
+
+nav a{
+    text-decoration: none;
+        margin-left:5px;
+        background-color: slategray;
+        padding: 5px 10px;
+        color: ivory;
+        border: 2px solid slategray;
+        border-radius: 20%;
+    }
+
+    nav a:hover{
+color: slategray;
+background-color: ivory;
+    }
+
+    .container{
+        border: 2px solid slategray;
+        border-radius: 20px;
+        padding:40px;
+    }
+    
+    h1, h2{
+        color: darkslateblue;
+    }
+
+    .month{
+        text-align: center;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkcyan;
+        border: none;
+    }

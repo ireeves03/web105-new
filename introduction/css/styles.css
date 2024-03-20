@@ -78,12 +78,16 @@ div{
     overflow: auto;
 }
 
-.container{
-    width: 80%;
-    margin: 10px auto;
-    border: 2px solid ;
-    padding: 20px;
-    background:rgba(233, 160, 206, 0.7);
+.container{ 
+    width: 80%; 
+    margin: 10px auto; 
+    border: 2px solid ; 
+    border-radius: 20px; 
+    padding: 20px; 
+    color: white; 
+    font-weight:bold; 
+    font-size:x-large; 
+    background:rgba(233, 160, 206, 0.85); 
 }
 
 .creme-brulee img{

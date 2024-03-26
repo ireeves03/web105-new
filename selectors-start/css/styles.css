@@ -38,6 +38,24 @@ h2{
     margin-left: 15px;
 }
 
+#p1{
+    font-weight:bold;
+    color:midnightblue;
+    padding:30px;
+}
+
+#p2{
+    font-size:larger;
+    color:indigo;
+    text-align:justify;
+}
+
+#p3{
+    font-family:cursive;
+    color:brown;
+    font-weight:600;
+}
+
 main{
     width: 70%;
     box-sizing: border-box;

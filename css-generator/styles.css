@@ -1,0 +1,39 @@
+body{
+background: rgb(1,19,221);
+background: linear-gradient(90deg, rgba(1,19,221,1) 0%, rgba(81,0,171,1) 50%, rgba(176,0,127,1) 100%);
+}
+
+#columns{
+    column-count: 3;
+column-gap: 5px;
+}
+
+#move{
+    background: plum;
+    width: 70px;
+    height: 70px;
+    transform: scale(5) rotate(720deg) translateX(150px) translateY(45px) skewX(10deg);
+    box-shadow:inset 2px 2px 5px 2px floralwhite;
+
+}
+
+.flexbox-container {
+    background: plum;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+
+h1{
+    text-shadow: 4px 2px 4px fuchsia;
+    text-align: center;
+    color: plum;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-size: large;
+    margin: 3px;
+}

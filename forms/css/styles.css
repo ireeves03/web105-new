@@ -183,10 +183,6 @@ textarea{
   font-size: 1.2em;
 }
 
-textarea-placeholder{
-  color: var(--dark-text);
-}
-
 form select{
   font-size: 1.2em;
   padding: 5px;

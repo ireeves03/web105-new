@@ -29,8 +29,8 @@ Fonts
  --warning: #F20F62; 
     --dark-text: black;
    --light-text: white;
-    --my-serif:"Crimson Text", serif;
-  --my-sans-serif:"Quicksand", sans-serif;
+    --my-serif:"Platypi", serif;
+  --my-sans-serif:"Poppins", sans-serif;
     }
                             
    /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -88,6 +88,7 @@ font-family: var(--my-sans-serif);
 padding: 10px;
 line-height: 3;
 background: black;
+color: var(--light-text);
 }
                             
 .container{

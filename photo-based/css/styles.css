@@ -24,11 +24,11 @@ Fonts
 
 /* variables */
   :root {
-   --Primary-color:#FFC0CB;
-   --Secondary-color: #54BFBF;
- --warning: #F20F62; 
-    --dark-text: black;
-   --light-text: white;
+   --Primary-color:#618278;
+   --Secondary-color: #705644;
+ --warning: #996E43; 
+    --dark-text: #3F2F34;
+   --light-text: #B7D9BC;
     --my-serif:"Platypi", serif;
   --my-sans-serif:"Poppins", sans-serif;
     }
@@ -99,8 +99,8 @@ border: 2px solid var(--Secondary-color);
 }
                             
 img{
-width: 40%;
-margin: 15px auto;
+width: 70%;
+margin: 10px auto;
 }
                             
 nav{
@@ -110,7 +110,7 @@ text-align: center;
 nav a{
 padding: 5px 10px;
 color: var(--light-text);
-background:var(--warning);
+background:var(--dark-text);
 text-decoration: none;
 }
                             
@@ -128,6 +128,7 @@ h1, h2, h3, h4{
 aside {
    width: 30%;
    padding: 15px;
+   margin: 25px auto;
    float: right;
    border: 2px solid var(--Primary-color);
  }
@@ -135,6 +136,7 @@ aside {
  main{
   width: 35%;
   padding: 15px;
+  margin: 25px auto;
   box-sizing: border-box;
   border: 2px solid var(--Primary-color);
  float: left;
@@ -156,7 +158,7 @@ clear: both; }
 }
 
 .grid-container > div > img{
-    width: 90%;
+    width: 70%;
 }
 
 .grid-container>div {
@@ -175,4 +177,18 @@ clear: both; }
     padding: 20px;
     background: var(--Primary-color);
 }
-                            
+       
+/* Table Layout */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr{
+  height: fit-content;
+}
+td{
+  width: 33%;
+  border: none
+}

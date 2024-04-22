@@ -1,0 +1,203 @@
+/*
+Primary-color: #F20F62
+Secondary-color: #54BFBF
+dark-text: black
+light-text: white
+
+Fonts
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+*/
+
+
+/* variables */
+  :root {
+   --Primary-color:#618278;
+   --Secondary-color: #705644;
+ --warning: #996E43; 
+    --dark-text: #3F2F34;
+   --light-text: #B7D9BC;
+    --my-serif:"Platypi", serif;
+  --my-sans-serif:"Poppins", sans-serif;
+    }
+                            
+   /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+                            
+  html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* My styles */
+
+body{
+font-family: var(--my-sans-serif);
+padding: 10px;
+line-height: 3;
+background: black;
+color: var(--light-text);
+}
+                            
+.container-xl{
+width: 90% auto;
+margin: 10px auto;
+padding: 15px;
+border: 2px solid var(--Secondary-color);
+}
+                            
+img{
+width: 90%;
+margin: 10px auto;
+display:block;
+}
+                            
+nav{
+text-align: center;
+}
+
+nav a{
+padding: 5px 10px;
+color: var(--light-text);
+background:var(--dark-text);
+text-decoration: none;
+}
+                            
+h1, h2, h3, h4{
+   font-family: var(--my-serif);
+   font-size: xx-large;
+  font-weight: bold;
+  color: var(--Secondary-color);
+ }
+                            
+ h1, h2, footer{
+   text-align: center;
+ }
+                            
+aside {
+   width: 40%;
+   padding: 15px;
+   margin: 25px auto;
+   float: right;
+   border: 2px solid var(--Primary-color);
+ }
+
+ .center{
+  border: 2px solid var(--Primary-color);
+  padding: 15px;
+  margin: 25px;
+  width: 90%;
+}
+                            
+ main{
+  width: 45%;
+  padding: 15px;
+  margin: 25px auto;
+  box-sizing: border-box;
+  border: 2px solid var(--Primary-color);
+ float: left;
+   min-height: 300px;
+ }
+                            
+footer{
+clear: both; }
+
+/* 🦆🦆🦆           Grid Layout       🦆🦆🪿  */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container > div > img{
+    width: 70%;
+}
+
+.grid-container>div {
+    background-color:var(--Primary-color);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+
+
+}
+
+#large{
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    background: var(--Primary-color);
+}
+
+       
+/* Table Layout */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr{
+  height: fit-content;
+}
+td{
+  width: 33%;
+  border: none
+}

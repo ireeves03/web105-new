@@ -137,10 +137,16 @@ h1, h2, h3, h4{
   font-weight: bold;
   color: var(--light-text);
  }
-                            
- h1, h2, footer{
-   text-align: center;
+
+ p{
+  padding:20px;
+  font-size: larger;
+  text-align: justify;
  }
+
+ h1, h2, footer{
+  text-align: center;
+}
                             
 aside {
    width: 40%;
@@ -163,11 +169,8 @@ aside {
  text-align: center;
 }
 
-button{
-  float:right;
-}
-
 .btn-primary {
+  font-size: x-large;
   background-color: var(--dark-text);
   color: var(--light-text);
   border: var(--dark-text);

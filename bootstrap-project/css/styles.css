@@ -144,6 +144,11 @@ h1, h2, h3, h4{
   text-align: justify;
  }
 
+figcaption{
+  color: var(--light-text);
+  font-weight: bold;
+}
+
  h1, h2, footer{
   text-align: center;
 }

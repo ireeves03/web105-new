@@ -147,11 +147,11 @@ aside {
    padding: 15px;
    margin: 25px auto;
    float: right;
-   border: 2px solid var(--Primary-color);
+   text-align: justify;
  }
 
  .center{
-  border: 2px solid var(--Primary-color);
+  text-align: justify;
   padding: 15px;
   margin: auto;
   width: 90%;
